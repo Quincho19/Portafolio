@@ -174,9 +174,12 @@ header{
 .agregar-imagen{
     object-fit: cover;
     width: 60%;
-    border-radius: 10%;
+    border-radius: 5%;
     transform: scale(0);
     transition: tranform .3s .2s;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 300px;
 }
 
 .showImage{
@@ -307,6 +310,8 @@ footer{
 
     .agregar-imagen{
         width: 80%;
+        margin-left: 50px;
+        margin-top: 150px;
     }
     
     .img-galeria{
@@ -362,6 +367,7 @@ footer{
 
     .agregar-imagen{
         width: 95%;
+        margin-left: 12px;
     }
 
     .img-galeria{
